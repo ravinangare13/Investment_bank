@@ -1,0 +1,43 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 29, Failures: 3, Errors: 0, Skipped: 20, Time elapsed: 117.552 s <<< FAILURE! - in TestSuite
+setup(kite.qa.testScripts.DashboardPageTest)  Time elapsed: 27.161 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div/div/form/div[2]/div/input"}
+  (Session info: MicrosoftEdge=92.0.902.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 92.0.902.78, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:61598}, msedge: {msedgedriverVersion: 92.0.902.78 (cf138c12fbef5d..., userDataDir: C:\Users\Sharayu\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d77661add996ee22a6a7a2c5b97134d0
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.DashboardPageTest.setup(DashboardPageTest.java:35)
+
+checkPinTest(kite.qa.testScripts.LoginPage2Test)  Time elapsed: 20.028 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="container"]/div/div/div/form/div[2]/div/input"}
+  (Session info: MicrosoftEdge=92.0.902.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 92.0.902.78, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:62606}, msedge: {msedgedriverVersion: 92.0.902.78 (cf138c12fbef5d..., userDataDir: C:\Users\Sharayu\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59aafc83b006c7d1b430281293495ca7
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.LoginPage2Test.checkPinTest(LoginPage2Test.java:44)
+
+checkForgotPasswordLinkTest(kite.qa.testScripts.LoginPage2Test)  Time elapsed: 20.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Forgot 2FA?"}
+  (Session info: MicrosoftEdge=92.0.902.78)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 92.0.902.78, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:52527}, msedge: {msedgedriverVersion: 92.0.902.78 (cf138c12fbef5d..., userDataDir: C:\Users\Sharayu\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2eabc0fecc79bb72a8765dc4932a6432
+*** Element info: {Using=link text, value=Forgot 2FA?}
+	at kite.qa.testScripts.LoginPage2Test.checkForgotPasswordLinkTest(LoginPage2Test.java:49)
+
